@@ -1,3 +1,14 @@
+body {
+	background-image:url("background.png");
+	background-repeat: no-repeat;
+}
+
+#links1 {
+	position:absolute;
+	left:1000px;
+	top:200px;
+}
+
 .btn-xl {
     padding: 50px;
     font-size: 36px;

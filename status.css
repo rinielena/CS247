@@ -5,7 +5,8 @@ body {
 
 .name {
 	text-align: center;
-	color:tan;
+	color:orange;
+	font-size: 300%;
 }
 
 #quote {
@@ -13,6 +14,7 @@ body {
 	font-family: "Courier New", Courier, monospace;
 	font-style: italic;
 	color: orange;
+	font-size: 350%;
 }
 
 h3 {
@@ -20,9 +22,32 @@ h3 {
 	color:teal;
 }
 
+a {
+	font-size: 125%;
+}
+
 h2 {
 	text-align: center;
-	color:tan;
+	color:black;
+	font-size: 250%;
+}
+
+#Preferences {
+	position:absolute;
+	left:1000px;
+	top:200px;
+}
+
+#Resources {
+	position:absolute;
+	left:1000px;
+	top:220px;
+}
+
+#Reflection {
+	position:absolute;
+	left:1000px;
+	top:240px;
 }
 
 /*#container1 {
@@ -63,7 +88,7 @@ h2 {
 
 #water1 {
 	
-	/*margin: 0 15.5%;*/
+	margin: 0 15.5%;
     background-image: url("giphy.png");   
     background-position: top right;
     position: absolute;
