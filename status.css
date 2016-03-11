@@ -5,15 +5,15 @@ body {
 
 .name {
 	text-align: center;
-	color:orange;
+	/*color:orange;*/
 	font-size: 300%;
 }
 
 #quote {
 	text-align: center;
-	font-family: "Courier New", Courier, monospace;
+	/*font-family: "Courier New", Courier, monospace;*/
 	font-style: italic;
-	color: orange;
+	/*color: orange;*/
 	font-size: 350%;
 }
 
@@ -41,13 +41,13 @@ h2 {
 #Resources {
 	position:absolute;
 	left:1000px;
-	top:220px;
+	top:240px;
 }
 
 #Reflection {
 	position:absolute;
 	left:1000px;
-	top:240px;
+	top:280px;
 }
 
 /*#container1 {
@@ -94,7 +94,7 @@ h2 {
     position: absolute;
     bottom: 0px;
     width: 200px;
-    height: 100px;
+    height: 300px;
     -webkit-transition: all 3s ease-out;
     -moz-transition: all 3s ease-out;
     -o-transition: all 3s ease-out;
@@ -154,7 +154,7 @@ h2 {
     position: absolute;
     bottom: 0px;
     width: 200px;
-    height: 100px;
+    height: 300px;
     -webkit-transition: all 3s ease-out;
     -moz-transition: all 3s ease-out;
     -o-transition: all 3s ease-out;
