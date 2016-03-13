@@ -14,7 +14,7 @@ body {
 	/*font-family: "Courier New", Courier, monospace;*/
 	font-style: italic;
 	/*color: orange;*/
-	font-size: 350%;
+	font-size: 300%;
 }
 
 h3 {
@@ -48,6 +48,12 @@ h2 {
 	position:absolute;
 	left:1000px;
 	top:280px;
+}
+
+
+#container1 {
+    position: absolute;
+    top: 400px;
 }
 
 /*#container1 {
@@ -87,14 +93,16 @@ h2 {
 }*/
 
 #water1 {
-	
-	margin: 0 15.5%;
+	float:left;
+	/*margin: 0 155%;*/
+    margin:0 100 0 65;
     background-image: url("giphy.png");   
     background-position: top right;
-    position: absolute;
+    /*position: absolute;*/
+    /*position:relative;*/
     bottom: 0px;
-    width: 200px;
-    height: 300px;
+    width: 150px;
+    height: 200px;
     -webkit-transition: all 3s ease-out;
     -moz-transition: all 3s ease-out;
     -o-transition: all 3s ease-out;
@@ -148,13 +156,17 @@ h2 {
 }*/
 
 #water2 {
-	margin: 0 40%;
+    float:left;
+	/*margin: 0 40%;*/
+    margin:0 65 0 65;
     background-image: url("giphy.png");   
     background-position: top right;
-    position: absolute;
     bottom: 0px;
-    width: 200px;
-    height: 375px;
+    /*position:absolute;
+    top: 200px;
+    left: 300px;*/
+    width: 150px;
+    height: 200px;
     -webkit-transition: all 3s ease-out;
     -moz-transition: all 3s ease-out;
     -o-transition: all 3s ease-out;
